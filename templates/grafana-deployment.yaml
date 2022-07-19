@@ -48,7 +48,7 @@ spec:
           value: "true"
         - name: GF_TLSSKIPVERIFY
           value: "true"
-        image: ghcr.io/timebeat-app/grafana:2.6.9
+        image: ghcr.io/timebeat-app/grafana:2.6.11
         name: grafana
         ports:
         - containerPort: 3000

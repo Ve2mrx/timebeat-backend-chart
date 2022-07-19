@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   creationTimestamp: null
   labels:
-    io.kompose.service: grafana-storage
+    app: grafana-storage
   name: grafana-storage
 spec:
   storageClassName: microk8s-hostpath
